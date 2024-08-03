@@ -1,0 +1,579 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+/* navbar started */
+.logo {
+    margin-top: 10px;
+}
+
+#main-logo {
+    width: 165px;
+    margin-left: 70px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link {
+    gap: 30px;
+    padding: 0px 30px;
+    color: white;
+}
+
+#franchise {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+#order-online {
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 30px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+#btn-icon {
+    padding: 5px 7px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#red {
+    color: red;
+}
+
+/* navbar ended */
+
+/* main started */
+
+.carousal {
+    width: 100%;
+}
+
+.main {
+    margin: 30px auto;
+}
+
+.heading1 {
+    color: white;
+    text-align: center;
+}
+
+.para1 {
+    text-align: center;
+    color: rgb(179, 176, 176);
+    margin-top: 5px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
+.children1 {
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.children2 {
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.children3 {
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+.btn-1 {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    margin-bottom: 100px;
+}
+
+.button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 15px 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* franchise started */
+.franchises-main {
+    background-color: rgb(22, 21, 21);
+}
+
+.heading1f {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    height: 300px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.boxex {
+    width: 40%;
+    /* border: 1px solid green; */
+}
+
+.box-h3 {
+    color: red;
+    margin-top: 10px;
+
+}
+
+.box-h1 {
+    color: white;
+}
+
+.box-icon {
+    color: white;
+}
+
+.box-para {
+    display: inline;
+    margin-left: 8px;
+    color: rgb(179, 176, 176);
+
+}
+
+.box-a {
+    margin-left: 8px;
+    color: rgb(179, 176, 176);
+    text-decoration: none;
+}
+
+.box-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 15px 40px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.box-btn-icon {
+    padding: 5px 7px;
+    background-color: white;
+    border-radius: 30px;
+
+}
+
+#ic {
+    color: red;
+}
+
+.box-img {
+    border-radius: 5px;
+}
+
+.Ex-Fr-main {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid blue; */
+    height: 300px;
+}
+
+.child {
+    /* border: 2px solid red; */
+    width: 25%;
+    margin: 30px auto;
+
+}
+
+.child-ex-fr-h3 {
+    color: red;
+    text-align: center;
+    padding-top: 5px;
+}.child-ex-fr-h3-2 {
+    color: red;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.child-ex-fr-h2 {
+    color: white;
+    text-align: center;
+}
+
+#lctn-icon {
+    color: rgb(179, 176, 176);
+}
+
+.ex-para {
+    color: rgb(179, 176, 176);
+    display: inline;
+    text-align: center;
+}
+
+.ex-para3 {
+    color: rgb(179, 176, 176);
+    display: inline;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.ex-para2 {
+    color: rgb(179, 176, 176);
+    display: inline;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.ex-span {
+    margin-left: 15px;
+}
+
+.ex-span2 {
+    margin-left: 95px;
+}
+
+.ex-span3 {
+    margin-left: 60px;
+}
+
+#tele-icon {
+    color: rgb(179, 176, 176);
+    margin-left: 90px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.tele-anchor {
+    text-decoration: none;
+    color: rgb(179, 176, 176);
+}
+
+.btn-ex {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 15px 20px;
+    cursor: pointer;
+    margin-left: 90px;
+    margin-top: 1px;
+}
+
+.Ex-Fr-main-last {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid blue; */
+    height: 300px;
+    justify-content: space-evenly;
+}
+
+.child-last {
+    /* border: 2px solid red; */
+    width: 25%;
+    margin-top: 30px;
+
+}
+.V-main{
+    background-color: rgb(22, 21, 21);
+    /* border: 1px solid blue; */
+    /* height: 500px; */
+    margin-top: 200px;
+}
+.v-h1{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.v-h1-2{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.container-V{
+    margin-top: 10px;
+    /* border: 1px solid blue ; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.V-children{
+    width: 40%;
+    /* border: 2px solid red; */
+}
+.V-img{
+    width: 100%;
+}
+.V-para{
+    color: red;
+    margin-top: 70px;
+}
+.V-h1-3{
+    color: white;
+    margin-top: 5px;
+}
+#lctn-v{
+    color: rgb(179, 176, 176);
+    margin-top: 10px;
+}
+.V-para2{
+    color: rgb(179, 176, 176);
+    display: inline;
+}
+#lctn-v2{
+    color: rgb(179, 176, 176);
+    margin-top: 10px;
+}
+.V-para3{
+    color: rgb(179, 176, 176);
+    display: inline;
+    text-decoration: none;
+}
+.V-btn{
+    background-color: #28a745;
+    color: white;
+    border: 0px solid white;
+   border-radius: 30px;
+   padding: 15px 20px;
+   margin-top: 50px;
+}
+.V-span{
+    background-color: white;
+    border-radius: 30px;
+    padding: 7px 10px;
+}
+#btn-icn{
+    color:#28a745 ;
+}
+/* Franchise opening started */
+.card-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border: 1px solid blue; */
+    /* height: 190px; */
+    width: 100%;
+    margin-top: 20px;
+}
+.card-children{
+    /* border: 1px solid green; */
+    border-radius: 5px;
+    width: 25%;
+    background-color: white;
+    padding: 10px;
+}
+.mt{
+    margin-top: 40px;
+}
+.card-icon{
+    display: block;
+    margin: auto;
+    /* margin-bottom: 16px */
+
+}
+.card-p{
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+.card-h2{
+    text-align: center;
+    margin-top: 5px;
+}
+.card-h4{
+    text-align: center;
+    margin-top: 5px;
+}
+.card-h4-2{
+    text-align: center;
+    margin-top: 5px;
+}
+/* Franchise opening ended */
+/* social feed started */
+.SF-h1{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.sf-parent{
+    /* border: 1px solid blue; */
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top:50px ;
+    margin-bottom: 100px;
+}
+.sf-children{
+    /* border: 1px solid green; */
+    width: 18%;
+
+}
+.sf-img{
+    width: 100%;
+}
+/* social feed ended */
+
+/* footer started */
+
+.footer{
+    background-color: rgb(22, 21, 21);
+    height: 635px;
+}
+.footer-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    /* border: 1px solid green; */
+
+}
+.footer-detail-one{
+    width: 20%;
+    /* border: 1px solid blue; */
+}
+.footer-logo{
+    width: 150px;
+    margin-top: 80px;
+}
+.footer-para{
+    color: rgb(179, 176, 176);
+    word-spacing: 2px;
+}
+.footer-site-link{
+    width: 20%;
+    /* border: 1px solid blue; */
+    height: 500px;
+}
+.footer-site-h3{
+    color: white;
+    margin-top: 80px;
+}
+.footer-anchor{
+    text-decoration: none;
+    display: block;
+    color: rgb(179, 176, 176);
+    font-size: 1.1rem;
+    margin-top: 25px;
+}
+.footer-contact{
+    width: 20%;
+    /* border: 1px solid blue; */
+}
+.footer-contact-h3{
+    color: white;
+    margin-top: 80px;
+}
+.footer-contact-h2{
+    color: white;
+    margin-top: 25px;
+    font-size: 1.2rem;
+}
+.footer-contact-para{
+    color: rgb(179, 176, 176);
+    margin-top: 20px;
+}
+.footer-contact-anchor{
+    display: block;
+    text-decoration: none;
+    color: rgb(179, 176, 176);
+    padding-top: 20px;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.footer-mail-anchor{
+    text-decoration: none;
+    color: rgb(179, 176, 176);
+
+}
+
+.footer-followus{
+    width: 20%;
+    /* border: 1px solid blue; */
+}
+.footer-follow-h3{
+    color: white;
+    margin-top: 80px;
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.span-icon{
+    
+    background-color:#ED1C24;
+    border-radius: 50%;
+    padding-top: 13px;
+    padding-left: 12px;
+    width: 50px;
+    height:50px;
+    margin-left: 5px;
+}
+#fb{
+    color: white;
+    font-size: 1.5rem;
+}
+#insta{
+    color: white;
+    font-size: 1.5rem;
+}
+#twit{
+    color: white;
+    font-size: 1.5rem;
+}
+.footer-img1{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.footer-hr{
+    color: rgb(218, 176, 176);
+    width: 98%;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto  ;
+    border: 0.2;
+}
+.last-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    color: rgb(179, 176, 176);
+
+}
+/* footer ended */

@@ -1,0 +1,387 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+    color: #fff;
+}
+
+/* navbar started */
+.logo {
+    margin-top: 10px;
+}
+
+#main-logo {
+    width: 165px;
+    margin-left: 70px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link {
+    gap: 30px;
+    padding: 0px 30px;
+    color: white;
+}
+
+#franchise {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+#order-online {
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 30px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+#btn-icon {
+    padding: 5px 7px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#red {
+    color: red;
+}
+
+/* navbar ended */
+
+/* main section started  */
+
+.feedback-container {
+    height: 720px;
+    background-image: url('../assets/feeedback\(1\).webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.main-head {
+    font-size: 3rem;
+    color: white;
+}
+
+.feedback-head {
+    font-size: 8rem;
+    color: white;
+}
+
+.para-head {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+
+}
+
+.food-and-service {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 30px 0px;
+}
+
+.left {
+    border-right: 2px dotted #555;
+    padding-right: 1.3rem;
+}
+
+.heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+.para {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left .star-container {
+    display: flex;
+    gap: 10px;
+}
+
+.left .star {
+    border: 1px solid #fff;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.cleanlines-value {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 30px 0px;
+}
+
+/* .form-container {} */
+
+.top-input {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.form-container .input {
+    background-color: #fff;
+    padding: 15px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+
+.form-heading {
+    font-size: 1.1rem;
+    margin: 10px 0px;
+}
+
+
+.sub-input-con {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.sub-input-con label {
+    font-size: 12px;
+}
+
+.sub-input {
+    background-color: #fff;
+    padding: 12px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+.radio-con {
+    display: flex;
+    /* justify-content:space-between ; */
+}
+
+.radio-con div {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}   
+
+.btn {
+    margin-top: 25px;
+    padding: 15px 25px;
+    background-color: red;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+}
+
+.right {
+    max-width: 600px;
+    height: max-content;
+}
+
+.right-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 4rem;
+}
+
+.first-heading {
+    font-size: 2rem;
+    margin: 30px 0px;
+}
+
+.right-data p {
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+.contact-heading {
+    font-size: 1.5rem;
+    margin: 25px 0px;
+}
+
+.head{
+    margin: 25px 0px  ;
+}
+.icon{
+    text-align: center;
+    line-height: 25px;
+}
+
+/* main section ended */
+
+/* footer started */
+
+.footer{
+    background-color: rgb(22, 21, 21);
+    height: 635px;
+    margin-top: 20px;
+}
+.footer-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    /* border: 1px solid green; */
+
+}
+.footer-detail-one{
+    width: 20%;
+    /* border: 1px solid blue; */
+}
+.footer-logo{
+    width: 150px;
+    margin-top: 80px;
+}
+.footer-para{
+    color: rgb(179, 176, 176);
+    word-spacing: 2px;
+}
+.footer-site-link{
+    width: 20%;
+    /* border: 1px solid blue; */
+    height: 500px;
+}
+.footer-site-h3{
+    color: white;
+    margin-top: 80px;
+}
+.footer-anchor{
+    text-decoration: none;
+    display: block;
+    color: rgb(179, 176, 176);
+    font-size: 1.1rem;
+    margin-top: 25px;
+}
+.footer-contact{
+    width: 20%;
+    /* border: 1px solid blue; */
+}
+.footer-contact-h3{
+    color: white;
+    margin-top: 80px;
+}
+.footer-contact-h2{
+    color: white;
+    margin-top: 25px;
+    font-size: 1.2rem;
+}
+.footer-contact-para{
+    color: rgb(179, 176, 176);
+    margin-top: 20px;
+}
+.footer-contact-anchor{
+    display: block;
+    text-decoration: none;
+    color: rgb(179, 176, 176);
+    padding-top: 20px;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.footer-mail-anchor{
+    text-decoration: none;
+    color: rgb(179, 176, 176);
+
+}
+
+.footer-followus{
+    width: 20%;
+    /* border: 1px solid blue; */
+}
+.footer-follow-h3{
+    color: white;
+    margin-top: 80px;
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.span-icon{
+    
+    background-color:#ED1C24;
+    border-radius: 50%;
+    padding-top: 13px;
+    padding-left: 12px;
+    width: 50px;
+    height:50px;
+    margin-left: 5px;
+}
+#fb{
+    color: white;
+    font-size: 1.5rem;
+}
+#insta{
+    color: white;
+    font-size: 1.5rem;
+}
+#twit{
+    color: white;
+    font-size: 1.5rem;
+}
+.footer-img1{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.footer-hr{
+    color: rgb(218, 176, 176);
+    width: 98%;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto  ;
+    border: 0.2;
+}
+.last-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    color: rgb(179, 176, 176);
+
+}
+/* footer ended */

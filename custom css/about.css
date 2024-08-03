@@ -1,0 +1,438 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+/* navbar started */
+.logo {
+    margin-top: 10px;
+}
+
+#main-logo {
+    width: 165px;
+    margin-left: 70px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1px solid rgb(179, 176, 176);
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link {
+    gap: 30px;
+    padding: 0px 30px;
+    color: white;
+}
+
+#franchise {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+#order-online {
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 30px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+#btn-icon {
+    padding: 5px 7px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#red {
+    color: red;
+}
+
+/* navbar ended */
+
+/* main started */
+
+.main-h1 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.container-main {
+    width: 80%;
+    /* border: 1px solid blue; */
+    margin: 10px auto;
+}
+
+.main-p {
+    text-align: center;
+    color: rgb(179, 176, 176);
+    margin-top: 10px;
+    font-size: 1.2rem;
+
+}
+
+.sec2-parent {
+    /* border: 1px solid blue; */
+    width: 100%;
+    /* height: 300px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.sec2-children {
+    /* border: 1px solid red; */
+    width: 40%;
+
+}
+
+.sec2-h1 {
+    color: white;
+}
+
+.sec2-p {
+    color: rgb(179, 176, 176);
+    margin-top: 20px;
+}
+
+.sec2-img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.Franchise-h1 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.exp-h1 {
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.exp-p {
+    color: rgb(179, 176, 176);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.exp-parent {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+.exp-child {
+    width: 40%;
+    /* border: 1px solid red; */
+}
+
+.sec3-img {
+    width: 100%;
+}
+
+.exp-p2 {
+    color: rgb(179, 176, 176);
+    margin-bottom: 10px;
+}
+
+.last-h1 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.last-parent {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    /* height: 300px; */
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.last-children {
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    width: 29%;
+    background-color: rgba(255, 255, 255, 0.06);
+    padding: 5px;
+}
+
+.last-img {
+    display: block;
+    width: 340px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.last-h3 {
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.last-p {
+    color: rgb(179, 176, 176);
+    text-align: center;
+    margin-top: 5px;
+}
+
+.last-anchor {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: rgb(179, 176, 176);
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.mt {
+    margin-top: 20px;
+}
+
+.last-heading {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.last-card-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    /* border: 1px solid blue; */
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.last-card-children {
+    /* border: 1px solid red; */
+    width: 40%;
+}
+
+.last-card-img {
+    width: 100%;
+}
+
+.last-small {
+    color: white;
+    margin-top: 5px;
+}
+
+.last-big {
+    display: block;
+    color: white;
+    margin-top: 5px;
+}
+
+#lctn-icon {
+    color: rgb(179, 176, 176);
+    margin-top: 20px;
+}
+
+.lctn-p {
+    display: inline;
+    color: rgb(179, 176, 176);
+}
+
+#phone-icon {
+    color: rgb(179, 176, 176);
+    margin-top: 10px;
+}
+
+.card-anchor {
+    color: rgb(179, 176, 176);
+    text-decoration: none;
+    display: inline;
+}
+
+/* main ended */
+
+/* footer started */
+
+.footer {
+    background-color: rgb(22, 21, 21);
+    height: 635px;
+}
+
+.footer-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    /* border: 1px solid green; */
+
+}
+
+.footer-detail-one {
+    width: 20%;
+    /* border: 1px solid blue; */
+}
+
+.footer-logo {
+    width: 150px;
+    margin-top: 80px;
+}
+
+.footer-para {
+    color: rgb(179, 176, 176);
+    word-spacing: 2px;
+}
+
+.footer-site-link {
+    width: 20%;
+    /* border: 1px solid blue; */
+    height: 500px;
+}
+
+.footer-site-h3 {
+    color: white;
+    margin-top: 80px;
+}
+
+.footer-anchor {
+    text-decoration: none;
+    display: block;
+    color: rgb(179, 176, 176);
+    font-size: 1.1rem;
+    margin-top: 25px;
+}
+
+.footer-contact {
+    width: 20%;
+    /* border: 1px solid blue; */
+}
+
+.footer-contact-h3 {
+    color: white;
+    margin-top: 80px;
+}
+
+.footer-contact-h2 {
+    color: white;
+    margin-top: 25px;
+    font-size: 1.2rem;
+}
+
+.footer-contact-para {
+    color: rgb(179, 176, 176);
+    margin-top: 20px;
+}
+
+.footer-contact-anchor {
+    display: block;
+    text-decoration: none;
+    color: rgb(179, 176, 176);
+    padding-top: 20px;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.footer-mail-anchor {
+    text-decoration: none;
+    color: rgb(179, 176, 176);
+
+}
+
+.footer-followus {
+    width: 20%;
+    /* border: 1px solid blue; */
+}
+
+.footer-follow-h3 {
+    color: white;
+    margin-top: 80px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.span-icon {
+
+    background-color: #ED1C24;
+    border-radius: 50%;
+    padding-top: 13px;
+    padding-left: 12px;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+#fb {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#insta {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#twit {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer-img1 {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.footer-hr {
+    color: rgb(218, 176, 176);
+    width: 98%;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.2;
+}
+
+.last-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    color: rgb(179, 176, 176);
+
+}
+
+
+/* footer ended */
