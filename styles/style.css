@@ -68,6 +68,10 @@ body {
 /* main started */
 
 .carousal {
+    width: 100vw;
+}
+
+.carousal img{
     width: 100%;
 }
 
